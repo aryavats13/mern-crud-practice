@@ -2,6 +2,7 @@ import './App.css';
 import Message from './Message.jsx';
 import Counter from './Counter.jsx';
 import Todo from './Todo.jsx';
+import Weather from './weather.jsx'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Message />
       <Counter />
       <Todo />
+      <Weather />
     </div>
   );
 }

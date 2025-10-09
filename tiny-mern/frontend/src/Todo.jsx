@@ -55,13 +55,11 @@ const Todo = () => {
   };
 
 return (
-  <div style={{ marginBottom: "40px", padding: "20px", border: "2px solid #ccc" }}>
+  <div style={{  marginTop: '50px',marginBottom: "40px", padding: "20px", border: "2px solid #ccc" }}>
     <h2>Todo App</h2>
 
-    {/* Error or info message */}
     {msg && <h4 style={{ color: "red" }}>{msg}</h4>}
 
-    {/* Input and Add button */}
     <div style={{ marginBottom: "20px" }}>
       <input
         value={text}
@@ -72,7 +70,6 @@ return (
       <button onClick={handleAdd}>Add</button>
     </div>
 
-    {/* Todo list */}
     <ul>
       {todos.map((todo) => (
         <li key={todo.id} style={{ marginBottom: "10px" }}>

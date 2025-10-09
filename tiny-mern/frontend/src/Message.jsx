@@ -29,7 +29,7 @@ function Message() {
   }, []);
 
   return (
-    <div style={{ marginBottom: "40px", padding: "20px", border: "2px solid #ccc" }}>
+    <div style={{ marginBottom: "40px", padding: "20px", border: "2px solid rgba(204, 204, 204, 1)" }}>
       <h2>Message Project</h2>
       <h1>{msg}</h1>
       <button onClick={handleClick}>Click Me</button>
